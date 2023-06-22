@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSCS :MULTI-STATE CO-OPERATIVE SOCIETIES</title>
+  <link rel="icon" type="image/x-icon" href="../../dist/img/favicon.png">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="../../dist/img/MSCS_LOGO.png" alt="AdminLTELogo" height="60" width="60">
+  </div>
+
+  <!-- New Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Sidebar Container -->
+   <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../../index.html" class="brand-link">
+      <img src="../../dist/img/MSCS_LOGO.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">MSCS - MIS</span>
+    </a>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Home
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Charts
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../charts/StateWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>State Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/YearWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Year Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/TypeWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Type Wise</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-table"></i>
+              <p>
+               Reg. Societies
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/dist/img/pdf/ALL_REG_MSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg. Societies(pdf)</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/OldListMSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies Registered Before 1986</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/SocietyReg.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies Registered Before 1986</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/CalYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Calender Wise List</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/FinanYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Financial Year Wise List</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Forms
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../forms/FormI.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form I</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form II</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form III</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form IV</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form V</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                MSCS Act
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/GuidelineAct2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Act, 2002</p>
+
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/Rules2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Rules, 2002</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ChekList.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Checklist</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ModelByeLaw.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Model Bye Law</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/NatPolicy02.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>National Policy on Cooperative 2002</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-envelope"></i>
+              <p>
+                Applications
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Appl/RecAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Recived Applications</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Appl/NewAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Status of Apllications
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                MSCS-MIS
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../MSCS-MIS/NewUserRegistrations.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>New User Registrations</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/UserLogin.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>User Login</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/AdminUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Admin User</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Reports
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Report/AllRegSocieties.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg Societies</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/RegisteredUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Registered User</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/FiledAnnualReturnsOnline.php" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Filed Annual Returns Online</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/AnnualReturnOffline.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Annual Return Offline</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/ReminderMessages.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Reminder Messages</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Liquidation
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Liquidation/SocietiesunderLiquidation.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies under Liquidation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/LiquidationInitiated.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Liquidation Process Initiated</p>
+                </a>
+              </li>
+
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="../Banks.html" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Banks</p>
+            </a>
+          </li>
+
+          <a href="#" class="brand">
+            <img src="../../dist/img/emb.png" alt="AdminLTE Logo" class="brand-image " style= " margin-left: 40px; margin-top: 25px; height: 150px; ; width:150px; border-radius: 15px;">
+            <span class="brand-text font-weight-light"></span>
+          </a>
+
+        </ul>
+      </nav>
+      </nav>
+    </div>
+  </aside>
+  <div class="content-wrapper">
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>FORM - I</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Forms</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0" style=" margin-left: 50px; width: 1100px; height: 500px;">
+            <table class="table table-head-fixed text-nowrap">
+                <br />
+                <div class="PageContain" style="text-align:justify; color:black; " >
+
+                    <div style="padding-left:20px;">
+                 <div style=" text-align:center;">
+                  <strong>FORM – I
+                    <br />
+                    [See sub-rule (1) of rule 3]
+                    <br />
+                    Application for registration of a Multi-State Cooperative Society under the Multi-State Cooperative Societies Act, 2002
+                    </strong>
+                     </div>
+                    <br />
+                    To,
+                    <br />
+                    The Central Registrar of Cooperative Societies,
+                    <br />
+                    New Delhi.
+                    <br />
+                        <br />
+                    Sir,
+                    <br />
+                    We submit herewith a proposal for registration of the following Multi-State Cooperative Society along with enclosures as
+        indicated below :
+                        <br />
+                    <br />
+                    2. We also declare that the information given herewith including that in the enclosures is correct to the best of our knowledge.<br />
+                        (a) Name of the proposed Multi-State Co-operative Society;
+                    <br />
+                    (b) Headquarters and address to be registered;
+                    <br />
+                    (c) Area of operations;
+                    <br />
+                    (d) Main objectives;
+                    <br />
+                    (e) Why is it absolutely necessary for the society to be registered under the Multi-State Cooperative Societies
+        Act,2002;
+                    <br />
+                    (f) A certificate in respect of provisions of clause (b) or sub-section(1) of section 7;
+                    <br />
+                    (g) A certificate in respect of provisions clause (c) of sub-section (1) of section 7;
+                    <br />
+                    (h) A certificate in respect of provisions of clause (d) of sub-section (1) of section 7;
+                    <br />
+                    (i) If all the members are individuals, indicate the number of persons from each State who have signed the application
+        :
+        Name of the State Number of persons who have
+         Signed the application
+                    <br />
+                    (j) Name and address of the applicant for the purpose of further correspondence.
+                    <br />
+                    <br />
+                    3. Following documents are enclosed :
+                        <br />
+                    <br />
+                    (a) A certificate from the _______________ Bank stating credit balance there in favour of the proposed multi-state
+        cooperative society.
+                    <br />
+                    (b) A scheme explaining how the proposed multi-state cooperative society has reasonable prospects of becoming a
+        viable unit. We are sending herewith four copies of the bye-laws duly signed.
+                    <br />
+                    <br />
+                    4. Following persons are authorised to sign the bye-laws and also to make necessary alteration therein.
+                    <br />
+                    <br />
+                    5. The particulars of the applicants are given here under :
+                    <br />
+                    </div>
+                    <table cellpadding="1" cellspacing="1" border="1" style="width: 95%;  color:black; ">
+          <tr>
+            <td style="text-align: center">S. No.</td>
+            <td style="text-align: center">Name </td>
+            <td style="text-align: center">If representing a corporate body,
+                                <br />
+                                name of the institution*</td>
+            <td style="text-align: center">If the applicant is an
+                                <br />
+                                individual</td>
+            <td style="text-align: center">Age</td>
+            <td style="text-align: center">Nationality </td>
+          </tr>
+          <tr>
+            <td style="text-align: center">(1)</td>
+            <td style="text-align: center">(2)</td>
+            <td style="text-align: center">(3)</td>
+            <td style="text-align: center">(4)</td>
+            <td style="text-align: center">(4A)</td>
+            <td style="text-align: center">(4B)</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+
+                    <div>
+                    <br />
+                    </div>
+                    <table id="ctl00_ContentPlaceHolder1_Table1" cellpadding="1" cellspacing="1" border="1" style="width: 95%; color:black; ">
+          <tr>
+            <td style="text-align: center">Profession </td>
+            <td style="text-align: center">Name of the State </td>
+            <td style="text-align: center">Address</td>
+            <td style="text-align: center">Amount subscribed
+                                <br />
+                                to share capital</td>
+            <td style="text-align: center">In the case of representative of society or <br />
+                                a multi-state cooperative society, whether
+                                <br />
+                                he is Chairpersons/ President or
+                                <br />
+                                Chief Executive of that society</td>
+            <td style="text-align: center">Signature </td>
+          </tr>
+          <tr>
+            <td style="text-align: center">(4C)</td>
+            <td style="text-align: center">(5)</td>
+            <td style="text-align: center">(6)</td>
+            <td style="text-align: center">(7)</td>
+            <td style="text-align: center">(8)</td>
+            <td style="text-align: center">(9)</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+
+                    <div>
+        &nbsp;&nbsp;
+                    <br />
+                   <div style=" text-align:center;">  <strong>For Official Use</strong></div>
+        <br />
+                    Received by registered post on+ _________________ by<sup>+</sup> ____________ in the office of the Central Registrar, or by hand
+        from Shri<sup>+</sup> _______________ entered in the register of application at S.No. _______________ .
+                    <br />
+                    <br />
+                  <div style="text-align:right">  Signature of officer receiving</div>
+                    <br />
+                    <br />
+                    Received registration proposal No. ______________ on ___________ for registration of _______________ Society Ltd., (Proposed)
+        alongwith the enclosures referred to above from ______________ by post/hand deliver.
+                    <br />
+                    <br />
+                    Place _____________
+                    <br />
+                    Date _______________
+                        <br />
+                   <div style="text-align:right"> Central Registrar
+                        <br />
+                        Signature and Stamp</div>
+                    <br />
+                    <br />
+                    * If representing a co-operative or any other co-operative body enclose a copy of the Resolution or authorization
+        of the competent authority, authorizing the person to sign the application for registration.
+                    <br />
+                        <sup>+</sup> blanks to be filled in.
+                        <br />
+                        <a id="ctl00_ContentPlaceHolder1_HyperLink1" href="Form/Form1.pdf" style="color:Red;font-weight:bold;">DOWNLOAD FORM 1 IN PDF</a>
+
+                       <br />
+        <br />
+                    </div>
+        </div>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div>
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../../plugins/chart.js/Chart.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<!-- Page specific script -->

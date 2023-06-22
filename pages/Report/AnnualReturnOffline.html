@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSCS :MULTI-STATE CO-OPERATIVE SOCIETIES</title>
+  <link rel="icon" type="image/x-icon" href="../../dist/img/favicon.png">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+ <!-- Preloader -->
+ <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="../../dist/img/MSCS_LOGO.png" alt="AdminLTELogo" height="60" width="60">
+  </div>
+
+  <!-- New Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+   <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../../index.html" class="brand-link">
+      <img src="../../dist/img/MSCS_LOGO.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">MSCS - MIS</span>
+    </a>
+
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Home
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Charts
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../charts/StateWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>State Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/YearWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Year Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/TypeWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Type Wise</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-table"></i>
+              <p>
+               Reg. Societies
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Reg/StateWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>State Wise List</p>
+                </a>
+              </li>
+           <li class="nav-item">
+                <a href="/dist/img/pdf/ALL_REG_MSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg. Societies(pdf)</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/OldListMSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies Registered Before 1986</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/CalYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Calender Wise List</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/FinanYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Financial Year Wise List</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Forms
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../forms/FormI.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form I</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form II</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form III</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form IV</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form V</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                MSCS Act
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/GuidelineAct2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Act, 2002</p>
+
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/Rules2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Rules, 2002</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ChekList.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Checklist</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ModelByeLaw.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Model Bye Law</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/NatPolicy02.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>National Policy on Cooperative 2002</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-envelope"></i>
+              <p>
+                Applications
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Appl/RecAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Recived Applications</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Appl/NewAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Status of Apllications
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                MSCS-MIS
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../MSCS-MIS/NewUserRegistrations.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>New User Registrations</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/UserLogin.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>User Login</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/AdminUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Admin User</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Reports
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Report/AllRegSocieties.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg Societies</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/RegisteredUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Registered User</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/FiledAnnualReturnsOnline.php" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Filed Annual Returns Online</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/AnnualReturnOffline.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Annual Return Offline</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/ReminderMessages.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Reminder Messages</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Liquidation
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Liquidation/SocietiesunderLiquidation.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies under Liquidation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/LiquidationInitiated.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Liquidation Process Initiated</p>
+                </a>
+              </li>
+
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="../Banks.html" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Banks</p>
+            </a>
+          </li>
+
+          <a href="#" class="brand">
+            <img src="../../dist/img/emb.png" alt="AdminLTE Logo" class="brand-image " style= " margin-left: 40px; margin-top: 25px; height: 150px; ; width:150px; border-radius: 15px;">
+            <span class="brand-text font-weight-light"></span>
+          </a>
+
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">List of Annual Returns Received by Offline  : 1319</h3>
+                    <div class="card-tools">
+                      <div class="input-group input-group-sm" style="width: 150px;">
+                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                        <div class="input-group-append">
+                          <button type="submit" class="btn btn-default">
+                            <i class="fas fa-search"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body table-responsive p-0" style="height: 600px;">
+                    <table class="table table-head-fixed text-nowrap">
+                      <section class="content">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="card">
+                                <div class="card-body">
+                                  <table id="example1" class="table table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                      <th>S.No</th>
+                                      <th>Name</th>
+                                      <th>Reg No</th>
+                                      <th>State/UT</th>
+                                      <th>Year</th>
+                                      <th>Received ON</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                      <td>1</td>
+                                      <td>Rani Lakshmibai Krishak Multi State Cooperative Society Limited</td>
+                                      <td>MSCS/CR/1143/2014</td>
+                                      <td>JHARKHAND</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>2</td>
+                                      <td>South Central Railway Employee's Co-operative Credit Society Ltd.</td>
+                                      <td>-105</td>
+                                      <td>ANDHRA PRADESH</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>3</td>
+                                      <td>The Best Cooperative Group Housing Society Ltd.,</td>
+                                      <td>MSCS/CR/864/2013</td>
+                                      <td>NEW DELHI</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>4</td>
+                                      <td>The Jackson Co-operative Credit Society of the Employees of the Western Railway Ltd.</td>
+                                      <td>M</td>
+                                      <td>MAHARASHTRA	</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>5</td>
+                                      <td>The State Bank of India Staff Association Thrift & Credit Cooperative Society ltd.,</td>
+                                      <td>MSCS/CR/76/98</td>
+                                      <td>ASSAM</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>6</td>
+                                      <td>Utsav Vikas Agro Multi State Cooperative Society Ltd</td>
+                                      <td>MSCS/CR/1167/2014</td>
+                                      <td>UTTAR PRADESH</td>
+                                      <td>2021-22</td>
+                                      <td>26 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>7</td>
+                                      <td>LDC Multi State Cooperative Credit Society Ltd.,</td>
+                                      <td>MSCS/CR/604/2012</td>
+                                      <td>MAHARASHTRA</td>
+                                      <td>2021-22</td>
+                                      <td>21 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>8</td>
+                                      <td>Rose Malar Developmental Cooperative Society Ltd.,</td>
+                                      <td>MSCS/CR/291/2008</td>
+                                      <td>TAMIL NADU</td>
+                                      <td>2021-22</td>
+                                      <td>21 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>9</td>
+                                      <td>Sai Aadarsh Multi State Cooperative Credit Society Ltd.,</td>
+                                      <td>MSCS/CR/753/2013</td>
+                                      <td>MAHARASHTRA</td>
+                                      <td>2021-22</td>
+                                      <td>21 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>10</td>
+                                      <td>Tumkur Merchants Credit Cooperative Limited</td>
+                                      <td>MSCS/CR/1130/2014</td>
+                                      <td>KARNATAKA</td>
+                                      <td>2021-22</td>
+                                      <td>21 Sep 2022</td>
+                                    </tr>
+                                    <tr>
+                                      <td>11</td>
+                                      <td>Aditya Anagha Multi State Credit Cooperativwe Society Ltd.,</td>
+                                      <td>MSCS/CR/398/2011	</td>
+                                      <td>MAHARASHTRA</td>
+                                      <td>2021-22	</td>
+                                      <td>19 Sep 2022</td>
+                                    </tr>
+
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="../../plugins/jszip/jszip.min.js"></script>
+<script src="../../plugins/pdfmake/pdfmake.min.js"></script>
+<script src="../../plugins/pdfmake/vfs_fonts.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<!-- Page specific script -->
+<script>
+  $(function () {
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+    });
+  });
+</script>
+    </body>
+    </html>

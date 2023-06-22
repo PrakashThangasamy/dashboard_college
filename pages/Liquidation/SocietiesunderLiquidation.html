@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSCS :MULTI-STATE CO-OPERATIVE SOCIETIES</title>
+  <link rel="icon" type="image/x-icon" href="../../dist/img/favicon.png">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+ <!-- Preloader -->
+ <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="../../dist/img/MSCS_LOGO.png" alt="AdminLTELogo" height="60" width="60">
+  </div>
+
+  <!-- New Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Sidebar Container -->
+   <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../../index.html" class="brand-link">
+      <img src="../../dist/img/MSCS_LOGO.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">MSCS - MIS</span>
+    </a>
+
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Home
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Charts
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../charts/StateWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>State Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/YearWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Year Wise</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/TypeWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Type Wise</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-table"></i>
+              <p>
+               Reg. Societies
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Reg/StateWise.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>State Wise List</p>
+                </a>
+              </li>
+           <li class="nav-item">
+                <a href="/dist/img/pdf/ALL_REG_MSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg. Societies(pdf)</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/OldListMSCS.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies Registered Before 1986</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/CalYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Calender Wise List</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Reg/FinanYear.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Financial Year Wise List</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Forms
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../forms/FormI.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form I</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form II</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIII.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form III</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormIV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form IV</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/FormV.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Form V</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                MSCS Act
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/GuidelineAct2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Act, 2002</p>
+
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/dist/img/pdf/Rules2002.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>MSCS Rules, 2002</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ChekList.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Checklist</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/MSCS Act/ModelByeLaw.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Model Bye Law</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/NatPolicy02.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>National Policy on Cooperative 2002</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-envelope"></i>
+              <p>
+                Applications
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Appl/RecAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Recived Applications</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Appl/NewAppl.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Status of Apllications
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                MSCS-MIS
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../MSCS-MIS/NewUserRegistrations.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>New User Registrations</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/UserLogin.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>User Login</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../MSCS-MIS/AdminUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Admin User</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Reports
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Report/AllRegSocieties.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>All Reg Societies</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/RegisteredUser.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Registered User</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/FiledAnnualReturnsOnline.php" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Filed Annual Returns Online</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/AnnualReturnOffline.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Annual Return Offline</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../Report/ReminderMessages.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Reminder Messages</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Liquidation
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../Liquidation/SocietiesunderLiquidation.html" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Societies under Liquidation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../dist/img/pdf/LiquidationInitiated.pdf" class="nav-link">
+                  <i class="far fa-check-circle nav-icon"></i>
+                  <p>Liquidation Process Initiated</p>
+                </a>
+              </li>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="../Banks.html" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Banks</p>
+            </a>
+          </li>
+
+          <a href="#" class="brand">
+            <img src="../../dist/img/emb.png" alt="AdminLTE Logo" class="brand-image " style= " margin-left: 40px; margin-top: 25px; height: 150px; ; width:150px; border-radius: 15px;">
+            <span class="brand-text font-weight-light"></span>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-tools">
+                      <div class="input-group input-group-sm" style="width: 150px;">
+                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                        <div class="input-group-append">
+                          <button type="submit" class="btn btn-default">
+                            <i class="fas fa-search"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body table-responsive p-0" style="height: 600px;">
+                    <table class="table table-head-fixed text-nowrap">
+
+
+                        <div class="PageContain" >
+                        <table class="auto-style1">
+
+                         <tr>
+                            <td style="float:left;">
+                                <span id="ctl00_ContentPlaceHolder1_LName" style="color:Black;font-size:Medium;font-weight:bold;">Societies under Liquidation :</span>
+                &nbsp;<span id="ctl00_ContentPlaceHolder1_LCount" style="color:Maroon;font-weight:bold;">64</span>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td class="auto-style2" colspan="4">
+                                <div>
+                  <table class="mGrid" cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_GridView1" style="font-size:Small;border-collapse:collapse;">
+                    <tr>
+                      <th scope="col">S No</th><th scope="col">Name of Society</th><th scope="col">State</th><th scope="col">Name Of Liquidator</th><th scope="col">Date of Appointment Order</th><th scope="col">Liquidation Validity Date</th><th scope="col">Status</th>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            1
+                                        </td><td align="left" valign="middle" style="width:300px;">Tourism Development Coop. India Ltd.,   (71, Masjid Road, Jangpura, New Delhi. ) </td><td>NEW DELHI</td><td>Shri V K Verma, Director(Coop) Department of Agriculture and Cooperation</td><td>06 Feb 2012</td><td>&nbsp;</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            2
+                                        </td><td align="left" valign="middle" style="width:300px;">Arthatatwa Multi State Credit Coop. Society Ltd.,  ( Sector-29, Kharvel nagar, Unit-3, Bhubaneswar, Odisha ) </td><td>ODISHA                                           </td><td>Shri Brahmanand Bhue, Joint Registrar of Cooperative Societies (Credit), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            3
+                                        </td><td align="left" valign="middle" style="width:300px;">Swastik India Multi State Credit Cooperative Society ltd.,  ( 1st floor, Samabaya Bhawan, Janpath, Bhubaneswar, Odisha ) </td><td>ODISHA                                           </td><td>Shri Balabhadra Patra, Joint Registrar of Cooperative Societies (Consumer), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            4
+                                        </td><td align="left" valign="middle" style="width:300px;">Mideast Multi State Credit Cooperative Society Ltd.,   (Plot No.33/C, Nayapalli, Sabarahi, Near BDA Nicco Park, Bhubaneswar, Odisha ) </td><td>ODISHA                                           </td><td>Shri Balabhadra Patra, Joint Registrar of Cooperative Societies (Consumer), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            5
+                                        </td><td align="left" valign="middle" style="width:300px;">Utkal Multi State Credit Cooperative Society Ltd.,   (SB-16, Shree Residency, Bomikhal, Near Puja Mandap, Bhubaneshwar, Odisha ) </td><td>ODISHA                                           </td><td>Shri Brahmanand Bhue, Joint Registrar of Cooperative Societies (Credit), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            6
+                                        </td><td align="left" valign="middle" style="width:300px;">Sai Kishore Multi State Credit Cooperative Society Ltd.,   (Plot No.A/116, Press Colony, Near Panda Nursing Home, Unit-III, Kharavel Nagar, Bhubaneswar, Odisha-751006 ) </td><td>ODISHA                                           </td><td>Shri Balabhadra Patra, Joint Registrar of Cooperative Societies (Consumer), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            7
+                                        </td><td align="left" valign="middle" style="width:300px;">Rajiv Gandhi Memorial Multi-State Credit Cooperative Society Ltd.,   (First Floor, MPO-23, Badagadan Brit Colony, Bhubaneswar-751018, Odisha ) </td><td>ODISHA                                           </td><td>Shri Brahmanand Bhue,, Joint Registrar of Cooperative Societies (Credit), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            8
+                                        </td><td align="left" valign="middle" style="width:300px;">SLB Multistate Credit Cooperative Society Ltd.,   (Plot No.687/2428, SLB Zone-B, Ekamra Kanan Road, Jayadev Vihar, Bhubaneshwar-751016, Odisha. ) </td><td>ODISHA                                           </td><td>Shri Brahmanand Bhue, Joint Registrar of Cooperative Societies (Credit), Odisha</td><td>28 Jul 2014</td><td>27 Oct 2014</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            9
+                                        </td><td align="left" valign="middle" style="width:300px;">Sunray Multi State Multi Purpose Cooperativwe Society ltd.,   (B.C. Sen Road, Adm.Square, Balasore, Odisha-756001  ) </td><td>ODISHA                                           </td><td>Shri Kulamani Padhi, Deputy Registrar of Cooperative Societies (Credit), Government of Odisha</td><td>11 May 2015</td><td>10 Aug 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            10
+                                        </td><td align="left" valign="middle" style="width:300px;">Micro Finance Credit Cooperative Society Ltd.,  ( Plot No.320, B, Saheed nagar, Bhubaneswar-751007, Odisha ) </td><td>ODISHA                                           </td><td>Shri Kulamani Padhi, Deputy Registrar of Cooperative Societies (Credit), Government of Odisha</td><td>11 May 2015</td><td>10 Aug 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            11
+                                        </td><td align="left" valign="middle" style="width:300px;">Vista Credit Cooperative Society Ltd.,  ( Plot No.4, Near Fly Over, Besides Jyoti Petrol Pump, Cuttack Road, Bhubaneshwar-751006, Odisha ) </td><td>ODISHA                                           </td><td>Shri Kulamani Padhi, Deputy Registrar of Cooperative Societies (Credit), Government of Odisha</td><td>11 May 2015</td><td>10 Aug 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            12
+                                        </td><td align="left" valign="middle" style="width:300px;">Green India Multi State Members Credit Cooperative Society Ltd.,  ( 4th Line, Dharma nagar, Berhampur, Ganjam, Odisha ) </td><td>ODISHA                                           </td><td>Shri Kulamani Padhi, Deputy Registrar of Cooperative Societies (Credit), Government of Odisha</td><td>11 May 2015</td><td>10 Aug 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            13
+                                        </td><td align="left" valign="middle" style="width:300px;">Jatropha Growers &amp; Bio-Fuel Development Cooperative Ltd.,   (Plot No.78-A, Journalist Colony, Jubilee Hills, Hyderabad, Andhra Pradesh ) </td><td>ANDHRA PRADESH                                    </td><td>Shri K. Narendra Reddy, DLCO, Hyderabad(West) RCS, Govt of Telangana</td><td>05 Jun 2015</td><td>04 Sep 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            14
+                                        </td><td align="left" valign="middle" style="width:300px;">Petrofils Cooperative Ltd.  (Prakurty Residency, 201,“Pearl Tower” Near Narayan Garden, Opp. Yash Complex, Gotri Road, Vadodara-390021, Gujarat ) </td><td>GUJARAT                                           </td><td>Shri Vinay Vyasa, IAS (Retd.)</td><td>26 Jun 2015</td><td>25 Dec 2015</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            15
+                                        </td><td align="left" valign="middle" style="width:300px;">The Regional Resource Development Cooperative Society Ltd.,   (H.No. 40-5/3-12, Lakshmisadan, Dr. Koneru Madhusudan Rao Street, Syamnagar, Vijayawada, Andhra pradesh ) </td><td>ANDHRA PRADESH                                    </td><td>Dy. Registrar / Divisional Cooperative Officers, Krishna, CC and RCS, Govt. of Andhra Pradesh</td><td>06 Apr 2016</td><td>05 Jul 2016</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            16
+                                        </td><td align="left" valign="middle" style="width:300px;">South Indian Fisherman Coop. Society Ltd  (Harisuvas, 9-15-17, C.B.M. Compound, Vishakapatnam,A.P. ) </td><td>ANDHRA PRADESH                                    </td><td>Dy. Registrar / Divisional Cooperative Officers, Vishakhapatnam, CC and RCS, Govt. of Andhra Pradesh</td><td>06 Apr 2016</td><td>05 Jul 2016</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            17
+                                        </td><td align="left" valign="middle" style="width:300px;">Bhavishya Credit Cooperative Society Ltd.,  (301, Mehta Sadan, Durga Nursery Road, Udaipur ) </td><td>RAJASTHAN                                         </td><td>Special Auditor, Coop Societies, Udaipur, RCS, Rajasthan</td><td>04 May 2016</td><td>03 Aug 2016</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            18
+                                        </td><td align="left" valign="middle" style="width:300px;">Silver Finance &amp; Credit Cooperative Society Ltd.  (, S.C.O. 188-189, First Floor, Sector-8C, Madhya Marg, U.T. of Chandigarh-160 009 ) </td><td>CHANDIGARH</td><td>New Liquidator :Shri Jagdish Chander, Inspector Gr. I (A), 0/0 the Additional Registrar, Cooperative Societies, Government of UT, Chandigarh. (Shri Jagdeep Singh, Inspector Gr. I, Additional Registrar Cooperative Societies, Govt of UT, Chandigarh)</td><td>27 May 2016</td><td>26 Aug 2016</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            19
+                                        </td><td align="left" valign="middle" style="width:300px;">The Pfizer Employees Co-operative Credit Society Limited  (Express Towers, 24th Floor, Nariman Point, Bombay-400021 ) </td><td>MAHARASHTRA                                       </td><td>District Special Auditor, Class-I, Cooperative Societies, Maharashtra</td><td>17 Jul 2017</td><td>16 Jan 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            20
+                                        </td><td align="left" valign="middle" style="width:300px;">Bhandara Laxmi Multi State Credit Co-operative Society Limited   ( H.No. 2772, Vidharbha Housing Colony, Bhandara Tq/Dist. Bhandara, Pin-441 904 (Maharashtra) ) </td><td>MAHARASHTRA                                       </td><td>District Special Auditor, Class-I, Cooperative Societies, Bhandara,Maharashtra</td><td>12 Sep 2017</td><td>11 Mar 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            21
+                                        </td><td align="left" valign="middle" style="width:300px;">Daulat Shetkari Sakhar Karkhana Ltd.,  (Kolhapur, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>District Deputy Registrar, Cooperative Societies, Kolhapur, RCS, Govt. of Maharashtra</td><td>16 Oct 2017</td><td>15 Apr 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            22
+                                        </td><td align="left" valign="middle" style="width:300px;">Shri Mahalaxmi Multi State Coop. Credit Society Ltd.,   (161/B, Parshwanath Garden, A Wings, Flat No 603,  6th Floor, Achas Ltd, Bhaudaji, Matunga, Mumbai 400019, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri A H Bhandare, Assistant Registrar,F/N Ward, Mumbai, CC and RCS, Govt. of Maharashtra</td><td>30 Nov 2017</td><td>29 May 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            23
+                                        </td><td align="left" valign="middle" style="width:300px;">Shree Dhokeshwar Multi State Urban Cooperative Credit Society Ltd.,   (Takali-Dhokeshwar, Taluk Parner, Distt. Ahmednagar, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri Dipak Paraye, Assistant Registrar,Niphad, CC and RCS, Govt. of Maharashtra</td><td>26 Dec 2017</td><td>25 Jun 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            24
+                                        </td><td align="left" valign="middle" style="width:300px;">Shubh Kalyan Multi State Cooperative Credit Society ltd.,   (Dilipnagar, Havargaon, Kallam, Osmanabad 413507, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>District Deputy Registrar, Cooperative Societies, Osmanabad, RCS, Govt. of Maharashtra, New Central Building, Second Floor, Pune 411001 Maharashtra</td><td>06 Feb 2018</td><td>05 Aug 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            25
+                                        </td><td align="left" valign="middle" style="width:300px;">Prompt Multi State Cooperative House Building Society Ltd.  (509/R, 3rd Floor, Redrose Plaza, DB Road, Rspuram, Coimbatore 641002, Tamil Nadu ) </td><td>TAMIL NADU                                        </td><td>Shri J Karthikeyan, Cooperative Sub registrar / Office Superientent, Deputy Registrar of CS (Housing) Door No 2, Ramasamy Street, Chintamani Complex, North Coimbatore, Coimbatore 641002 Tamil Nadu</td><td>13 Feb 2018</td><td>12 Aug 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            26
+                                        </td><td align="left" valign="middle" style="width:300px;">Apeshwar Credit Cooperative Society Ltd.,   (Pratiksha height, Opp. Subhashpark, Near Ayurvedic Hospital, Sirohi (Rajasthan) ) </td><td>RAJASTHAN                                         </td><td>Deputy Registrar of Cooperative Societies, Sirohi, Rajasthan</td><td>06 Mar 2018</td><td>&nbsp;</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            27
+                                        </td><td align="left" valign="middle" style="width:300px;">ARGOSY Credit Cooperative Society Ltd.,   (Sengali, Sadar Bazar, Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Deputy Registrar of Cooperative Societies, Sirohi, Rajasthan</td><td>06 Mar 2018</td><td>&nbsp;</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            28
+                                        </td><td align="left" valign="middle" style="width:300px;">Kolpe-Patil Multi State Cooperative Credit Society Ltd.  (, Pune, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri B T Lawand , Deputy Registrar of Cooperative Societies, Pune, Maharashtra</td><td>10 Apr 2018</td><td>09 Oct 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            29
+                                        </td><td align="left" valign="middle" style="width:300px;">S.P. Global Multipurpose Cooperative Society ltd.,   (Empire Estate, C.B. 1st Building, Office No.202/203, Chinchwad, Pune-411019, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri Pratik Pokharkar, Deputy Registrar of Cooperative Societies, Pune, Maharashtra</td><td>27 Apr 2018</td><td>26 Oct 2018</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            30
+                                        </td><td align="left" valign="middle" style="width:300px;">Janlaxmi Multipurpose Cooperative Society Ltd.,   (Shop No.8,9 &amp;10, Vijay Complex, Opposite Deen Dayal Hospital, Ramgarh Road, Aligarh-202001, Uttar Pradesh  ) </td><td>UTTAR PRADESH                                     </td><td>Shri Kunwar Pal Singh, Additional Commissioner &amp; Additional Registrar</td><td>25 Apr 2019</td><td>24 Oct 2019</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            31
+                                        </td><td align="left" valign="middle" style="width:300px;">ICICI Bank Staff Cooperative Thrift &amp; Credit Society Ltd  (8/37 Viswasapurai, 3rd Street, Gnanaolivupuram, Madurai 625 016 Tamil Nadu ) </td><td>TAMIL NADU                                        </td><td>Shri S M Saleem</td><td>15 May 2019</td><td>14 Nov 2019</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            32
+                                        </td><td align="left" valign="middle" style="width:300px;">Shri Khoteshwar Urban Credit Cooperative Society Ltd.,  (Shahji Ki Badi, Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Dinesh Kumar Bohra, Assistant Registrar,  Special Auditor, Office of Cooperative Societies, Sirohi, Rajasthan</td><td>19 May 2019</td><td>30 Jun 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            33
+                                        </td><td align="left" valign="middle" style="width:300px;">Anant-Nidhi Credit Cooperative Society Limited,   (1st Floor, Pushpa Bajaja Building, Opposite Alambagh Bus Stand, Alambagh, Lucknow-226005, Uttar Pradesh ) </td><td>UTTAR PRADESH                                     </td><td>Yogendra Malik, Joint Commissioner and Additional Ragistrar, Sector 5, Vasundhara, Ghaziabad, Uttar Pradesh</td><td>20 May 2019</td><td>19 Aug 2019</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            34
+                                        </td><td align="left" valign="middle" style="width:300px;">Marwar Urban Credit Cooperative Society Ltd.,  ( Choutan Road, Barmer, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Ashok Kumar, Deputy Registrar</td><td>10 Jun 2019</td><td>09 Dec 2019</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            35
+                                        </td><td align="left" valign="middle" style="width:300px;">Arbuda Credit Cooperative Society Ltd.,  ( Mout Abu, Dist. Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Rajendra Prasad Diama, Deputy Registrar</td><td>13 Jun 2019</td><td>12 Dec 2019</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            36
+                                        </td><td align="left" valign="middle" style="width:300px;">Uttar Bharat Urban Cooperative Bank Federation ltd.,  ( 6-B, Park Road, Jaiswal Complex, II Floor, Lucknow ) </td><td>UTTAR PRADESH                                     </td><td>Shri Sharda Prashad, Retd. Additional Commissioner nad Additional Registrar</td><td>11 Jul 2019</td><td>10 Jan 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            37
+                                        </td><td align="left" valign="middle" style="width:300px;">National Farmers Cooperative Ltd.,   (&#39;NAFCO House&#39;, 1st Floor, Kanwani, Indrapuram, hindon Pull Crossing, Ghaziabad ) </td><td>UTTAR PRADESH                                     </td><td>Shri Akhilesh Kumar Bajpai, Additional Commissioner and Additional Registrar</td><td>11 Jul 2019</td><td>10 Jan 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            38
+                                        </td><td align="left" valign="middle" style="width:300px;">Power Build Home Credit Cooperative Society Ltd.  (, 637-B, Bhansali Tower, 4th Floor, Residency Road, Jodhpur, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Surender Singh Rathore, Joint Registrar</td><td>12 Jul 2019</td><td>11 Jan 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            39
+                                        </td><td align="left" valign="middle" style="width:300px;">ARGOSY Credit Cooperative Society Ltd.,   (Sengali, Sadar Bazar, Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Rajendra Prasad Diama, Deputy Registrar, Sirohi, Rajasthan</td><td>29 Jul 2019</td><td>28 Jan 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            40
+                                        </td><td align="left" valign="middle" style="width:300px;">Apeshwar Credit Cooperative Society Ltd.,   (Pratiksha height, Opp. Subhashpark, Near Ayurvedic Hospital, Sirohi (Rajasthan) ) </td><td>RAJASTHAN                                         </td><td>Shri Rajendra Prasad Diama, Deputy Registrar, Sirohi, Rajasthan</td><td>29 Jul 2019</td><td>28 Jan 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            41
+                                        </td><td align="left" valign="middle" style="width:300px;">Sahyog Credit Cooperative Society Ltd.,   (Mayur Plaza Complex, Palace Road, Sirohi Tehsil and Distt. Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Dr Pramod Kumar, Assistant Registrar of Cooperative Societies, Sirohi,Govt,of Rajasthan, Nehru Sahakar Bhawan, Bhawani Singh Road, Jaipur</td><td>18 Nov 2019</td><td>17 May 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            42
+                                        </td><td align="left" valign="middle" style="width:300px;">Sundaram Credit Cooperative Society Ltd.,  ( 18, PWD Colony, Opposite BSNL Office,Sirohi, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Shri Pramod Kumar, Executive Officer, Central Bank India Ltd, Sirohi</td><td>03 Jan 2020</td><td>02 Jul 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            43
+                                        </td><td align="left" valign="middle" style="width:300px;">Shrinath Multi State Urban Cooperative Credit Society Ltd.,  ( Shrinath Complex, Phase-I, Pipeline Road, A-Nagar, Taluk and Dist. Ahmednagar, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri R F Nikam, District Special Auditor</td><td>21 Jan 2020</td><td>20 Jul 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            44
+                                        </td><td align="left" valign="middle" style="width:300px;">Aditya Aarthik Niyojan Multi State Cooperatrive Credit Society Ltd.,  ( 8, Prem Sagar Apartment, Opp. Beck Co. Near United Church, Pimpri, Pune, Maharashtra ) </td><td>MAHARASHTRA                                       </td><td>Shri S S Sawant, 8th Special Auditor, Cooperative Class-I, Govt. of Maharashtra</td><td>05 Feb 2020</td><td>01 Aug 2020</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            45
+                                        </td><td align="left" valign="middle" style="width:300px;">Samruddha Jeevan Multi State Multi Purpose Cooperative Society ltd.,   (4th Floor, Tantra Building, Yashodhan Business Complex, Ghole Road, Shivaji Nagar, Pune, Maharashtra -411005 ) </td><td>MAHARASHTRA                                       </td><td>Shri. Anand Katake, Deputy Registrar, O/o of commissioner of Cooperation &amp; Registrar of Cooperative Societies, Govt. of Maharashtra, Pune 411001, Maharashtra</td><td>17 Sep 2020</td><td>16 Mar 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            46
+                                        </td><td align="left" valign="middle" style="width:300px;">The Happy Future Multipurpose Cooperative Society Ltd.,  ( No.9/5, Somu 2nd Lane, kalmandapam, Rayapuram, Chennai-600013, Tamil Nadu ) </td><td>TAMIL NADU                                        </td><td>Shri S.T. Rajendran, Managing Director, Chennai Teachers Guild Employees Cooperative Societies (ECS) &amp; Registrar of Cooperative Societies, Govt. of Tamil Nadu, 170, Periyar, EVR High R, KilPauk, Chennai-600010, Tamil Nadu</td><td>13 Oct 2020</td><td>12 Apr 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            47
+                                        </td><td align="left" valign="middle" style="width:300px;">Jyoti Credit &amp; Savings Swablambi Sahakari Samiti Ltd.,  ( 2, Main Dharmveer Market, Mathura Road, New Delhi ) </td><td>NEW DELHI</td><td>Shri K K Bhalla, Deputy Registrar of Cooperative Societies, Pandara Road, New Delhi 110003</td><td>27 Nov 2020</td><td>26 May 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            48
+                                        </td><td align="left" valign="middle" style="width:300px;">Adarsh Credit Cooperative Society Ltd.,   (14 Vidya Vihar colony, Opposite Hotel Fortune Landmark, Usmanpura, Ahmedabad, 380013 Gujarat ) </td><td>GUJARAT                                           </td><td>Shri H S Patel, IAS (Retd) Plot No 338, Sector 8B, CH Road, Gandhi Nagar, Gujarat 382007 (Extension order dated 24.11.2021) </td><td>29 Nov 2020</td><td>28 Nov 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            49
+                                        </td><td align="left" valign="middle" style="width:300px;">Grahak Bazar Cooperative Society Ltd.,   (202, G Block, Sai Complex, 2-2-1975/2, Bagh, Amberpet,Hyderabad-500013 Andhra Pradesh ) </td><td>ANDHRA PRADESH                                    </td><td>Smt. Esther Rani Jhon, Deputy Registrar of Cooperative Societies, Charminar Division, Floor-4, Hyderabad 500001 Telangana</td><td>12 Jan 2021</td><td>11 Jul 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            50
+                                        </td><td align="left" valign="middle" style="width:300px;">Bhaichand Hirachand Raisoni Multi State Cooperative Credit Society Ltd.,  ( 1, Ponam Chambers, Bank Street, Navi peth, Jalgaon ) </td><td>MAHARASHTRA                                       </td><td>New Liquidator : Shri Chaitaanya Nasare, Assistant registrar of Cooperative Societies, Government of maharashtra (Ex- Liquidator : Shri Jitendra Gulabrao Kandare, Deputy Registrar of Cooperative, Govt of Maharashtra)</td><td>18 Jan 2021</td><td>17 Jan 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            51
+                                        </td><td align="left" valign="middle" style="width:300px;">Imayam Multi State Housing Co-operative Society Limited  (No.9, Chitra Avenue, Suresh Block-103, 1st Floor, Choolaimedu High Road, Chennai-600 094 (Tamil Nadu) ) </td><td>TAMIL NADU                                        </td><td>Shri J Sudhanthiravalli, Cooperative Sub Registrar/MD, O/o of Registrar of Cooperative Societies, Govt of Tamil Nadu</td><td>18 Jan 2021</td><td>17 Jul 2021</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            52
+                                        </td><td align="left" valign="middle" style="width:300px;">Skylark Multi-State Cooperative Group Housing Society Ltd.,   (A-4/301, PASCHIM VIHAR, NEW DELHI-110063 ) </td><td>NEW DELHI</td><td>Shri Manoj Kumar, IAS(Retd.), New Delhi</td><td>09 Feb 2021</td><td>08 Feb 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            53
+                                        </td><td align="left" valign="middle" style="width:300px;">Cooperative Store Ltd.,   (Super Bazar, New Delhi. ) </td><td>NEW DELHI</td><td>Shri Dinesh Kumar Sonker, Director(Cooperation), Department of Consumer Affairs, New Delhi</td><td>31 Aug 2021</td><td>30 Aug 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            54
+                                        </td><td align="left" valign="middle" style="width:300px;">Gab Gramya Vikas Credit Cooperative Society Ltd.,  ( M-190-A, Ashiana Colony, Kanpur Road, Lucknow-226005(Uttar Pradesh) ) </td><td>UTTAR PRADESH                                     </td><td>Smt. Shail Kumari, Assistant Commissioner and Assistant Registrar, Cooperation, Lucknow, Uttar Pradesh</td><td>07 Sep 2021</td><td>06 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            55
+                                        </td><td align="left" valign="middle" style="width:300px;">Lakshya Multipurpose Cooperative Society ltd.,   (First Floor, Above Khalsa Automobiles, Opp. Hotel sangam, Near Dr. Bansal Hospital, Tinkoni Chowk, Bathinda-151001, Punjab ) </td><td>PUNJAB                                            </td><td>Deputy Registrar of Cooperative Societies,, Bhatinda, Govt. of Punjab</td><td>07 Sep 2021</td><td>06 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            56
+                                        </td><td align="left" valign="middle" style="width:300px;">Evergreen Agro Multi State Co-operative Society Limited,   (H-124, 2ndFloor, Sec-63, Noida-201 309 (Uttar Pradesh) ) </td><td>UTTAR PRADESH                                     </td><td>Smt Shraddha Anang, Assistant Commissioner and Assistant Registrar, Cooperation, Ghaziabad, Uttar Pradesh</td><td>16 Sep 2021</td><td>15 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            57
+                                        </td><td align="left" valign="middle" style="width:300px;">Uttar pradesh Cooperative Construction and Development Ltd.,  ( Lucknow, 22, Gokhle Marg, Greenwood Apartment, Lucknow ) </td><td>UTTAR PRADESH                                     </td><td>Ms Vaishali Singh, Assistant Commissioner and Assistant Registrar, Cooperation, Lucknow, Uttar Pradesh</td><td>16 Sep 2021</td><td>15 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            58
+                                        </td><td align="left" valign="middle" style="width:300px;">Crown Credit Coopertaive Society Ltd.,   (4-56-A, GF, Gali No.3, Laxmi nagar, Delhi ) </td><td>NEW DELHI</td><td>Shri Ajay Kumar Kaushal</td><td>16 Sep 2021</td><td>15 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            59
+                                        </td><td align="left" valign="middle" style="width:300px;">Success Valley Credit Cooperative Society Ltd.,   (208, Welcome Plaza, S-551, Sahool Block-II, Shakarpur, Delhi ) </td><td>NEW DELHI</td><td>Shri Vijay Singh</td><td>16 Sep 2021</td><td>14 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            60
+                                        </td><td align="left" valign="middle" style="width:300px;">Bharti Credit Cooperative Society Ltd.,   (Nirmal Niket, Opp. City Power House, Behind Ajmer Auto , Jaipur Road, Ajmer-305001, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>Deputy Registrar, Cooperative Societies, Ajmer, Rajasthan </td><td>27 Sep 2021</td><td>26 Sep 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            61
+                                        </td><td align="left" valign="middle" style="width:300px;">Prithivi Credit Cooperative Society Ltd.,   (102, Sffair Court Apartment, 3A Jopling Road, Near Lucknow Public School, Lucknow, U.P. 226001 ) </td><td>UTTAR PRADESH                                     </td><td>Ms. Indu, Assistant Commissioner and Assistant Registrar, Cooperation, Headquarter, Lucknow, Uttar Pradesh </td><td>06 Oct 2021</td><td>05 Oct 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            62
+                                        </td><td align="left" valign="middle" style="width:300px;">Sanjivani Credit Cooperative Society Ltd.,   (Barmer, Rajasthan ) </td><td>RAJASTHAN                                         </td><td>The Managing Director, Central Cooperative Bank Ltd., Barmer, Rajasthan   </td><td>07 Oct 2021</td><td>06 Oct 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            63
+                                        </td><td align="left" valign="middle" style="width:300px;">Capital Credit Cooperative Multi State Society Ltd.,  ( 332,Hanuman Garh,Firozabad,U.P. ) </td><td>UTTAR PRADESH                                     </td><td>Shri Vivek Yadav, Assistant Commissioner and Assistant Registrar, Cooperation, District - Firozabad, Uttar Pradesh</td><td>20 Oct 2021</td><td>19 Oct 2022</td><td>Under Liquidation</td>
+                    </tr><tr>
+                      <td align="center" style="width:40px;">
+                                            64
+                                        </td><td align="left" valign="middle" style="width:300px;">HBN Credit Cooperative Society Ltd.,   (B-53, B1 Block Community Centre, Janakpuri, New Delhi-110058 ) </td><td>NEW DELHI</td><td>Shri Ashok Kumar Gupta, DANICS (Retd.), Govt. of NCT of Delhi</td><td>03 Dec 2021</td><td>02 Dec 2022</td><td>Under Liquidation</td>
+                    </tr>
+                  </table>
+                </div>
+                            </td>
+
+                          </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    </body>
+    </html>
